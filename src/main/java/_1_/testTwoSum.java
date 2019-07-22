@@ -1,4 +1,4 @@
-package com.sankuai;
+package _1_;
 
 public class testTwoSum {
     public static void main(String[] args) {

@@ -1,7 +1,5 @@
-package com.sankuai;
+package _7_;
 
-import java.util.HashMap;
-import java.util.Map;
 
 public class reverseInteger {
     public static void main(String[] args) {
@@ -17,6 +15,6 @@ public class reverseInteger {
             b = b * 10 + a % 10;
             a /= 10;
         }
-        return (b > Integer.MAX_VALUE || b < Integer.MIN_VALUE) ? 0 : b;
+        return b > Integer.MAX_VALUE || b < Integer.MIN_VALUE ? 0 : b;
     }
 }
